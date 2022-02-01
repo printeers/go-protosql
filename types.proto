@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protosql;
+option go_package = ".;protosql";
+
+import "google/protobuf/timestamp.proto";
+
+message Timestamp {
+	google.protobuf.Timestamp timestamp = 1;
+}
