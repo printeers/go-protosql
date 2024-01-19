@@ -1,4 +1,4 @@
-module github.com/stack11/go-protosql
+module github.com/printeers/go-protosql
 
 go 1.17
 
